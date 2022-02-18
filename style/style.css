@@ -1,0 +1,135 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container__header, .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__header{
+    margin: 35px auto;
+}
+
+.nav__li{
+    display: inline-block;
+}
+
+.nav__link{
+    font-family: Inter;
+    color: #B8BECD;
+    margin-right: 35px;
+    text-decoration: none;
+}
+
+.nav__link-active{
+    font-family: Inter;
+    font-weight: 500;
+    color: #202336;
+}
+
+.button-container__button{
+    width: 132px;
+    height: 44px;
+    border: 1px solid #FB8F1D;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #FB8F1D;
+    color: white;
+}
+
+.button-container__button-transporant{
+    background: white;
+    color: #FB8F1D;
+}
+
+.travel-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.title{
+    max-width: 247px;
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.line{
+    width: 92px;
+    height: 5px;
+    background: #0F0B0B;
+    border-radius: 5px;
+    margin: 16px 0 52px 0;
+}
+
+.button{
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.button__mail{
+    width: 412px;
+    height: 59px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-bottom: 25px; 
+    text-align: left;
+    padding-left: 28px;
+}
+
+.button__sub{
+    width: 158px;
+    height: 59px;
+    background: #1ABE84;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.travel__photo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-height: 440px;
+    
+}
+
+.travel__img{
+    position: relative;
+}
+
+.travel__img:not(:first-child){
+    margin-left: 48px;
+}
+
+.text{
+    position: absolute;
+    width: 152px;
+    height: 63px;
+    top: 269px;
+    background: #FFFFFF;
+    border-radius: 0px 10px;
+}
+
+p{ 
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
